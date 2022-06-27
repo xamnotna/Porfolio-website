@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {AiOutlineCheck} from 'react-icons/ai'
+/* import {AiOutlineCheck} from 'react-icons/ai' */
 
 const Services = () => {
   return (
@@ -16,7 +16,7 @@ const Services = () => {
               <li>
                 {/* <AiOutlineCheck className='service-list-icon' /> */}
                 <p>
-                  I build websites from the ground up, from scratch. I use the latest
+                  I have build websites from the ground up, from scratch. I use the latest
                   technologies to make sure your website is fast, responsive, and
                   secure.
                 </p>
@@ -31,7 +31,7 @@ const Services = () => {
               <li>
                 {/* <AiOutlineCheck className='service-list-icon' /> */}
                 <p>
-                  I build mobile apps from the ground up, from scratch. I use the latest
+                  I have build mobile apps from the ground up, from scratch. I use the latest
                   technologies to make sure your app is fast, responsive, and secure.
                 </p>
               </li>
@@ -45,8 +45,8 @@ const Services = () => {
               <li>
                 {/* <AiOutlineCheck className='service-list-icon' /> */}
                 <p>
-                  I design beautiful, user-friendly interfaces and experiences for
-                  your business.
+                  I will design beautiful, user-friendly interfaces and experiences wich a
+                  user can interact with.
                  </p>
               </li>
             </ul>

@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css';
-import porfilePic from '../../assets/profile2.jpg'
+//import porfilePic from '../../assets/profile2.jpg'
+import porfilePic_01 from '../../assets/img_01.png'
+import porfilePic_02 from '../../assets/img_02.png'
 import {FiAward} from 'react-icons/fi'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -13,8 +15,9 @@ const About = () => {
 
       <div className='container about-container'>
         <div className='about-me'>
-          <div className='about-me-image'>
-            <img src={porfilePic}  alt='about profile' />
+          <div >
+            <img src={porfilePic_01}  alt='about profile' className='image img-01'/>
+            <img src={porfilePic_02}  alt='about profile' className='image img-02' />
           </div>
         </div>
 
@@ -23,7 +26,7 @@ const About = () => {
             <article className='about-card'>
               <FiAward className='about-icon'/> 
               <h5>Experience</h5>
-              <small>Newley Examed</small>
+              <small>Newley graduated</small>
             </article>
 
             <article className='about-card'>
@@ -35,13 +38,14 @@ const About = () => {
             <article className='about-card'>
               <VscFolderLibrary className='about-icon'/> 
               <h5>Projects</h5>
-              <small>worked on 2 Projects</small>
+              <small>worked on several Projects</small>
             </article>
           </div>
 
           <p>
-            I am a self taught web developer with a passion for learning and problem solving. I have a background in
-            web development and have worked on a wide range of projects. I am currently working on a project called
+            I'm a graduate frontend developer with a passion for learning and problem solving. I have a background in
+            frontend development and Ux/UI design. I have a passion for learning new technologies and I'm always
+            looking for new ways to improve my skills.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Contact Me</a>
